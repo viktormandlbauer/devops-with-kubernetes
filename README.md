@@ -6,4 +6,5 @@
 * [1.2](/project/)
 * [1.3](/log-output/)
 * [1.4](/todo-app/)
-* [1.5](/todo-app/)
+* [1.5](/todo-app/manifests/deployment.yml)
+* [1.6](/todo-app/manifests/service.yml)
