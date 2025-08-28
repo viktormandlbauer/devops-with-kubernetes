@@ -1,14 +1,17 @@
 const express = require('express');
 const app = express();
 
+const path = require('path');
+
+// Serve everything in /public
+app.use(express.static(path.join(__dirname, 'public')));
 
 // Allow choosing the port via environment variable PORT, default to 3000
 const PORT = Number(process.env.PORT) || 3000;
 
 
 // Health endpoint (handy for readiness/liveness probes later)
-app.get('/healthz', (_req, res) => res.send('ok'));
-
+app.get('/health', (_req, res) => res.send('ok'));
 
 // Root endpoint — placeholder for the future todo features
 app.get('/', (_req, res) => {
