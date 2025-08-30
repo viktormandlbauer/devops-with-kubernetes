@@ -9,9 +9,3 @@
 * [1.5](/todo-app/)
 * [1.6](/todo-app/)
 * [1.7](/log-output/)
-
-## Cheatsheet
-
-```bash
-k3d cluster create -p 8080:80@loadbalancer --agents 2
-```
