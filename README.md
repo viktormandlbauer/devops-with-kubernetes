@@ -10,3 +10,4 @@
 * [1.6](/todo-app/)
 * [1.7](/log-output/)
 * [1.8](/todo-app/)
+* [1.8](/ping-pong/)
